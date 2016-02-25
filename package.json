@@ -4,6 +4,7 @@
   "description": "my first realtime server",
   "dependencies": {
     "express": "^4.13.3",
+    "qrcode-npm": "0.0.3",
     "socket.io": "^1.3.7"
   },
   "devDependencies": {

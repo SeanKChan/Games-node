@@ -125,7 +125,7 @@ io.on('connection', function(socket){
 		//获取房间号和用户id
 		var rid = obj.room_id;
 		var uid = obj.uid;
-		
+
 		//告诉对应的进度条页面操作
 		var s = io.sockets.sockets;
 		for(var i = 0;i < s.length;i++){
